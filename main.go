@@ -42,6 +42,7 @@ func main() {
 		ProviderNameOriginal: "hcloud",
 		ProviderData:         hcloud.Provider(),
 		ProviderImportPath:   "github.com/hetznercloud/terraform-provider-hcloud/hcloud",
+		ProviderConfig:       "hetznercloud/hcloud",
 		Version:              "v1alpha1",
 		APIsPath:             apisPath,
 		ControllerPath:       controllerPath,
